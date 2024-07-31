@@ -1,0 +1,130 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Q1: What is the official language for Android development?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/option11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java" />
+        <RadioButton
+            android:id="@+id/option12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin" />
+        <RadioButton
+            android:id="@+id/option13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++" />
+        <RadioButton
+            android:id="@+id/option14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swift" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Q2: Which component is used to display a list of items in Android?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/option21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <RadioButton
+            android:id="@+id/option22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ListView" />
+
+        <RadioButton
+            android:id="@+id/option23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <RadioButton
+            android:id="@+id/option24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EditText" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Q3: Which method is used to start an activity in Android?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/option31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startService()" />
+
+        <RadioButton
+            android:id="@+id/option32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startActivity()" />
+
+        <RadioButton
+            android:id="@+id/option33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startBroadcast()" />
+
+        <RadioButton
+            android:id="@+id/option34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startIntent()" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
